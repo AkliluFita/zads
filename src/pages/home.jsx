@@ -151,8 +151,8 @@ export default function Home() {
               </p>
               <p className="text-[#4d4d4d] text-lg leading-relaxed mb-7">
                 Today, ZADS PLC brings together two complementary trade lines:
-                agricultural exports from Ethiopia and textiles and construction
-                material imports for the domestic market.
+                agricultural exports from Ethiopia and textile, construction
+                material and other import sourcing for the domestic market.
               </p>
               <TextLink to="/about">Get to know ZADS</TextLink>
             </div>

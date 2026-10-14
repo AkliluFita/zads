@@ -22,7 +22,7 @@ const Markets = lazy(() => import("./pages/markets"));
 const meta = {
   "/": [
     "Ethiopian origins. Global connections.",
-    "ZADS PLC connects Ethiopian agricultural excellence to global markets through sesame, beans and oils exports and textile and construction material imports.",
+    "ZADS PLC connects Ethiopian agricultural products to global markets and sources textiles and construction materials for local businesses.",
   ],
   "/about": [
     "Our story",
@@ -30,7 +30,7 @@ const meta = {
   ],
   "/products": [
     "Our products",
-    "Explore Ethiopian sesame, beans, agricultural oils, textiles and construction material sourcing.",
+    "Explore Ethiopian sesame, beans, Niger seed, soybeans, chickpeas, textiles and construction material sourcing.",
   ],
   "/services": [
     "Trade services",

@@ -30,7 +30,7 @@ export function About() {
   return (
     <div className="bg-[#faf8f5] text-[#1e1e1e] antialiased overflow-x-hidden">
       <PageHero
-        eyebrow="OUR STORY / SINCE 2006"
+        eyebrow="OUR STORY / SINCE 2003"
         title={
           <>
             It started with a shop.
@@ -49,14 +49,14 @@ export function About() {
       <section className="max-w-[1320px] mx-auto px-6 lg:px-8 py-24 grid lg:grid-cols-2 gap-16 items-center">
         <Reveal className="relative rounded-[36px] overflow-hidden aspect-square shadow-[0_20px_35px_-8px_rgba(0,0,0,0.08)] group">
           <img
-            src="/images/textiles.webp"
-            alt="Illustrative folded fabrics, representing the textile roots of ZADS"
+            src="/images/zads-processing-facility.jpg"
+            alt="ZADS agricultural processing machinery inside its facility"
             width="800"
             height="800"
             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
           />
           <span className="absolute bottom-5 left-6 right-6 text-[0.65rem] tracking-[0.14em] uppercase text-white/90 font-medium [text-shadow:0_2px_10px_rgba(0,0,0,0.4)]">
-            WHERE OUR STORY BEGAN · TEXTILES
+            AGRICULTURAL PROCESSING FACILITY
           </span>
         </Reveal>
 
@@ -68,18 +68,18 @@ export function About() {
             <em className="font-serif italic font-normal text-[#b45f3b]">A wider horizon.</em>
           </h2>
           <p className="text-xl lg:text-2xl leading-snug font-medium text-[#2a2a2a]">
-            Adane Zeleke founded ZADS PLC in Mercato to help bring quality
-            textiles within reach beyond Ethiopia's capital.
+            ZADS PLC began as a small shop in Merkato and grew its business over time.
           </p>
           <p className="text-[#4d4d4d] text-lg leading-relaxed">
-            What began as a small retail operation expanded into a full
-            production factory, supported by a supplier network across Ethiopia.
+            What began as a small retail operation expanded into a growing
+            business, supported by a supplier network across Ethiopia.
             Since 2006, our import division has sourced textiles and
             construction materials through overseas partners.
           </p>
           <p className="text-[#4d4d4d] text-lg leading-relaxed">
             In 2022, we opened a new chapter in agricultural exports. Our first
-            export shipment followed in 2023. Today, sesame, beans and oils
+            export shipment followed in 2023. Today, sesame, beans, Niger seed,
+            soybeans and chickpeas
             connect our Ethiopian sourcing regions with international buyers.
           </p>
         </Reveal>
@@ -175,40 +175,6 @@ export function About() {
         </div>
       </section>
 
-      {/* ===== LEADERSHIP ===== */}
-      <section className="bg-[#1e1e1e] text-white rounded-[48px] py-24 my-10">
-        <div className="max-w-[1320px] mx-auto px-6 lg:px-8 grid lg:grid-cols-2 gap-16 items-center">
-          <div>
-            <Eyebrow className="text-white/70">FAMILY-OWNED. FORWARD-LOOKING.</Eyebrow>
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-medium leading-[1.1] tracking-tight text-white">
-              Leadership with
-              <br />
-              <em className="font-serif italic font-normal text-[#d9b8a4]">local roots.</em>
-            </h2>
-          </div>
-
-          <div className="flex flex-col sm:flex-row items-start gap-8 bg-white/[0.06] border border-white/[0.08] rounded-[32px] p-9 lg:p-10 backdrop-blur-sm">
-            <span
-              className="flex items-center justify-center w-20 h-20 rounded-full bg-[#b45f3b] text-white text-2xl font-medium tracking-wide shrink-0"
-              aria-hidden="true"
-            >
-              AZ
-            </span>
-            <div>
-              <h3 className="text-2xl font-medium mb-1.5">Adane Zeleke</h3>
-              <p className="text-[#d9b8a4] text-sm tracking-wide uppercase font-medium mb-5">
-                Founder &amp; Chief Executive Officer
-              </p>
-              <span className="text-[#c6c6c6] leading-relaxed block">
-                From the company's Mercato beginnings to its import and export
-                operations, ZADS PLC's story is rooted in a commitment to
-                access, quality and dependable trade.
-              </span>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <ContactCTA />
     </div>
   );
@@ -286,19 +252,20 @@ export function Services() {
               </h2>
               <p className="text-[#4d4d4d] text-lg leading-relaxed max-w-lg">
                 Client-specific sourcing for men's and women's fabrics and
-                construction materials, with door-to-door import coordination
-                for the Ethiopian market.
+                construction materials, plus client-specific sourcing for
+                other requested imports such as machinery and equipment, with
+                door-to-door coordination for the Ethiopian market.
               </p>
             </div>
 
             <div className="grid lg:grid-cols-2 gap-14 items-center bg-[#eae5dd] rounded-[40px] p-8 lg:p-12">
               <div className="relative rounded-[28px] overflow-hidden aspect-square shadow-[0_20px_35px_-8px_rgba(0,0,0,0.08)] group">
                 <img
-                  src="/images/textiles.webp"
+                  src="/images/zads-processing-facility.jpg"
                   width="800"
                   height="800"
                   loading="lazy"
-                  alt="Illustrative fabrics available through textile sourcing"
+                  alt="Agricultural processing machinery at a ZADS facility"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
               </div>
@@ -308,9 +275,10 @@ export function Services() {
                   Start with your requirements.
                 </h3>
                 <p className="text-[#4d4d4d] text-lg leading-relaxed">
-                  Tell us the material, specification, quantity and destination
-                  you have in mind. Our team will discuss suitable suppliers,
-                  product availability and the delivery approach with you.
+                  We source textiles and fabrics, construction materials, and
+                  other requested imports such as machinery and equipment.
+                  Tell us your material or product specification, quantity and
+                  destination so we can discuss suitable suppliers and delivery.
                 </p>
                 <p className="text-[#4d4d4d] text-lg leading-relaxed">
                   Pricing, order confirmation, shipping and delivery

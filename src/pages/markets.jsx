@@ -47,7 +47,7 @@ export default function Markets() {
               "01",
               "Middle Asia",
               "Export markets",
-              "Sesame, beans and oils for international buyers.",
+              "Sesame, beans, Niger seed, soybeans and chickpeas for international buyers.",
             ],
             [
               "02",
@@ -125,8 +125,8 @@ export default function Markets() {
                 <XAxis
                   dataKey="year"
                   type="number"
-                  domain={[2005, 2024]}
-                  ticks={[2006, 2022, 2023]}
+                  domain={[2002, 2024]}
+                  ticks={[2003, 2006, 2022, 2023]}
                   tick={{ fill: "#5c655a", fontSize: 12, fontWeight: 500 }}
                   tickLine={false}
                   axisLine={{ stroke: "#bfc3b8" }}

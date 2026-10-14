@@ -53,29 +53,40 @@ export const products = [
     ],
   },
   {
-    slug: "oils",
-    name: "Agricultural oils",
-    shortName: "Oils",
+    slug: "niger-seed",
+    name: "Ethiopian Niger seed",
+    shortName: "Niger seed",
     category: "Export",
-    tag: "ETHIOPIAN ORIGINS. INTERNATIONAL REACH.",
+    tag: "A DISTINCTIVE ETHIOPIAN OILSEED.",
     origin: "Ethiopia",
-    image: "/images/oils.webp",
-    description:
-      "Agricultural oils within our Ethiopian export portfolio, with product selection and specifications coordinated directly with the buyer.",
-    details:
-      "Tell us the oil type, intended use and technical requirements for your order. Our team will discuss the available product, quality documentation and shipment arrangements with you.",
-    specs: [
-      ["Origin", "Ethiopia"],
-      ["Oil type & grade", "Confirmed at quotation"],
-      [
-        "Colour & liquid characteristics",
-        "Technical values confirmed for selected product",
-      ],
-      ["Inspection", "Product-specific quality checks"],
-      ["Packaging", "Format and capacity agreed at quotation"],
-      ["Availability", "Contact for current supply"],
-      ["Minimum order", "2 containers / 45,000 kg"],
-    ],
+    image: "/images/niger-seed.webp",
+    description: "Niger seed sourced for international buyers, with grade, quality checks and shipment details agreed for each order.",
+    details: "Share your required grade, packaging and volume with our team. Availability and product specifications are confirmed for the selected lot before quotation.",
+    specs: [["Origin", "Ethiopia"], ["Grade & cleanliness", "Confirmed for selected lot"], ["Packaging", "Agreed with buyer"], ["Availability", "Contact for current supply"]],
+  },
+  {
+    slug: "soybeans",
+    name: "Ethiopian soybeans",
+    shortName: "Soybeans",
+    category: "Export",
+    tag: "SELECTED FOR YOUR SPECIFICATION.",
+    origin: "Ethiopia",
+    image: "/images/soybeans.webp",
+    description: "Ethiopian soybeans prepared for export with buyer requirements guiding grade, inspection and packing.",
+    details: "Our team coordinates sourcing and batch checks, then confirms the selected lot's specification and shipment arrangements with the buyer.",
+    specs: [["Origin", "Ethiopia"], ["Grade & size", "Confirmed for selected lot"], ["Packaging", "Agreed with buyer"], ["Availability", "Contact for current supply"]],
+  },
+  {
+    slug: "chickpeas",
+    name: "Ethiopian chickpeas",
+    shortName: "Chickpeas",
+    category: "Export",
+    tag: "CAREFULLY SOURCED PULSES.",
+    origin: "Ethiopia",
+    image: "/images/chickpeas.webp",
+    description: "Chickpeas sourced from Ethiopian growing regions and prepared to meet agreed buyer specifications.",
+    details: "Discuss your required variety, grade, quantity and packaging with our team. Current availability and lot details are confirmed before order.",
+    specs: [["Origin", "Ethiopia"], ["Variety & grade", "Confirmed for selected lot"], ["Packaging", "Agreed with buyer"], ["Availability", "Contact for current supply"]],
   },
   {
     slug: "textiles",
@@ -164,6 +175,11 @@ export const qualityChecks = [
   ["Shelf life evaluation", "Reviewing stability through delivery."],
 ];
 export const milestones = [
+  {
+    year: 2003,
+    title: "A small shop in Merkato",
+    text: "The company begins as a small shop in Merkato and steadily grows its business.",
+  },
   {
     year: 2006,
     title: "A foundation in imports",
